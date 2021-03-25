@@ -60,7 +60,7 @@ const campanhaVacina = () => {
         }
     }
     
-    console.log(naoVacinados + " " + "nao foi vacinado");
+    console.log(`${naoVacinados} deve ser vacinados!`);
 }
 
 campanhaVacina();
