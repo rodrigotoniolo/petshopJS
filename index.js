@@ -85,7 +85,15 @@ const darBanhoPet = () =>{
         if (tomouBanho == true){
             console.log(`${pet.nome} ja tomou banho.`);
         }
-        
+    }
+}
+
+const tosarPet = () =>{
+    for(let pet of pets){
+        const tosarPet = pet.servicos.includes('tosa');
+        if (tosarPet == true){
+            console.log(`${pet.nome} está com cabelinho na régua.`);
+        }
     }
 }
 
@@ -93,5 +101,5 @@ adicionarPet();
 campanhaVacina();
 listarPets();
 darBanhoPet();
-
+tosarPet();
 // console.log(pets);
