@@ -73,7 +73,7 @@ const adicionarPet = () =>{
         tutor: 'Junior',
         contato: '(81) 99222-3333',
         vacinado: false,
-        servicos: []
+        servicos: ['corte de unhas']
     }
 pets.push(petNovo);
 console.log(petNovo.nome);
@@ -97,9 +97,19 @@ const tosarPet = () =>{
     }
 }
 
+const apararUnhasPet = () =>{
+    for(let pet of pets){
+        const cortarUnhas = pet.servicos.includes('corte de unhas');
+        if (cortarUnhas == true){
+            console.log(`${pet.nome} está de unhas aparadas.`);
+        }
+    }
+}
+
 adicionarPet();
 campanhaVacina();
 listarPets();
 darBanhoPet();
 tosarPet();
+apararUnhasPet();
 // console.log(pets);
