@@ -79,9 +79,19 @@ pets.push(petNovo);
 console.log(petNovo.nome);
 }
 
+const darBanhoPet = () =>{
+    for(let pet of pets){
+        const tomouBanho = pet.servicos.includes('banho');
+        if (tomouBanho == true){
+            console.log(`${pet.nome} ja tomou banho.`);
+        }
+        
+    }
+}
+
 adicionarPet();
 campanhaVacina();
 listarPets();
+darBanhoPet();
 
 // console.log(pets);
-;
