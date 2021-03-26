@@ -38,29 +38,23 @@ let pets = [
 
 const listarPets = () => {
     for(let pet of pets){
-        // console.log(`O nome do pet é ${pet.nome}, ${pet.idade}, ${pet.tipo}, ${pet.raca}`);
+        // console.log(`${pet.nome}, ${pet.idade}, ${pet.tipo}, ${pet.raca}`);
     vacinarPet(pet.vacinado, pet.nome);
     }
 }
 
 const vacinarPet = (vacinado, nome) => {
-    if (vacinado === false) {
-        console.log(`${nome} não foi vacinado`);
-    }
-    else {
-        console.log(`${nome} ja foi vacinado`);
-    }
+    (vacinado === false) ? console.log(`${nome} não foi vacinado`) : console.log(`${nome} ja foi vacinado`);
 }
 
 const campanhaVacina = () => {
     let naoVacinados = 0;
     for (let pet of pets){
-        if (pet.vacinado === false){
-            naoVacinados++
+        (pet.vacinado === false) ? naoVacinados++ : null;
         }
     }
-    console.log(`${naoVacinados} deve(m) ser vacinados!`);
-}
+    // console.log(`${naoVacinados} deve(m) ser vacinados!`);
+
 
 const adicionarPet = () =>{
     let petNovo =
@@ -82,27 +76,21 @@ console.log(petNovo.nome);
 const darBanhoPet = () =>{
     for(let pet of pets){
         const tomouBanho = pet.servicos.includes('banho');
-        if (tomouBanho == true){
-            console.log(`${pet.nome} ja tomou banho.`);
-        }
+        (tomouBanho == true) ? console.log(`${pet.nome} ja tomou banho.`) : null
     }
 }
 
 const tosarPet = () =>{
     for(let pet of pets){
         const tosarPet = pet.servicos.includes('tosa');
-        if (tosarPet == true){
-            console.log(`${pet.nome} está com cabelinho na régua.`);
-        }
+        (tosarPet == true) ? console.log(`${pet.nome} está com cabelinho na régua.`) : null
     }
 }
 
 const apararUnhasPet = () =>{
     for(let pet of pets){
         const cortarUnhas = pet.servicos.includes('corte de unhas');
-        if (cortarUnhas == true){
-            console.log(`${pet.nome} está de unhas aparadas.`);
-        }
+        (cortarUnhas == true) ? console.log(`${pet.nome} está de unhas aparadas.`) : null
     }
 }
 
