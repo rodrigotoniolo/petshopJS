@@ -61,18 +61,19 @@ const apararUnhasPet = () =>{
 }
 
 const atenderCliente = (pet, servico) => {
-    console.log(`Bem vindo, ${pet.nome}`);
-    servico ? servico() : console.log("só vim dar uma olhadinha");
+    console.log(`Olá, ${pet.nome}!`);
+    (servico) ? servico(pet) : console.log ('Só vim dar uma olhadinha!');
+    console.log('Tchau, até mais!');
 };
 
-campanhaVacina();
+// campanhaVacina();
 listarPets();
-darBanhoPet();
-tosarPet();
-apararUnhasPet();
+// darBanhoPet();
+// tosarPet();
+// apararUnhasPet();
 
 
-adicionarPet({
+// adicionarPet({
     "nome": "Tobias",
     "tipo": "cachorro",
     "idade": 4,
@@ -84,4 +85,4 @@ adicionarPet({
     "servicos": ["corte de unhas"]
 });
 
-
+atenderCliente(bancoDados.pets[0]);
