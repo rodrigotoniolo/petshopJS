@@ -19,10 +19,13 @@
       "peso": 7,
       "tutor": "Felipe",
       "contato": "(81) 99232-2543",
-      "vacinado": false,
+      "vacinado": true,
       "servicos": [
         "banho",
-        "tosa"
+        "tosa",
+        {
+          "nome": "Vacina"
+        }
       ]
     },
     {
@@ -47,243 +50,12 @@
       "peso": 9,
       "tutor": "Junior",
       "contato": "(81) 99222-3333",
-      "vacinado": false,
+      "vacinado": true,
       "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
-      ]
-    },
-    {
-      "nome": "Tobias",
-      "tipo": "cachorro",
-      "idade": 4,
-      "raca": "poodle",
-      "peso": 9,
-      "tutor": "Junior",
-      "contato": "(81) 99222-3333",
-      "vacinado": false,
-      "servicos": [
-        "corte de unhas"
+        "corte de unhas",
+        {
+          "nome": "Vacina"
+        }
       ]
     }
   ]
